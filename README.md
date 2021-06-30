@@ -4,13 +4,13 @@
 
 This dataset was taken from the Kaggle community, at this link: https://www.kaggle.com/hellbuoy/car-price-prediction
 
-The Business Goal of this problem is to model the price of cars using the available independent variables. It will be used by the management to understand how exactly the prices vary with the independent variables. Using regression algorithms, the model with the best evaluation is when using Random Forest Regressor, with 92% accuracy (R2 Score). When the Cross-Validation technique is applied, the model's accuracy reuces, reaching 88%. However, Random Forest Regressor continues to be the model with the greatest precision, compared to other machine learning models. This means that the model is 88% better than if we took the average of all values, as can be seen in the graph below, showing the result of the first hundred instances.
+The Business Goal of this problem is to model the price of cars using the available independent variables. It will be used by the management to understand how exactly the prices vary with the independent variables. Using regression algorithms, the model with the best evaluation is when using Random Forest Regressor, with 89,76% accuracy (R2 Score). When the Cross-Validation technique is applied, the model's accuracy reuces, reaching 73,68%. However, Random Forest Regressor continues to be the model with the greatest precision, compared to other machine learning models. This means that the model is 89,76% better than if we took the average of all values, as can be seen in the graph below, showing the result of the first hundred instances.
 
 ![alt text](https://github.com/Daniel-RPS/Car-Price-Prediction/blob/main/graphics.jpg)
 
 In addition to the Business Goal, I tried to answer 5 business questions:
 
-1 - Car prices are around how many dollars? Most prices are concentrated around $8000.00
+1 - Car prices are around how many dollars? Most prices are concentrated between 5000.00 and 10000.00
 
 ![alt text](https://github.com/Daniel-RPS/Car-Price-Prediction/blob/main/1.jpg)  
   
@@ -18,7 +18,7 @@ In addition to the Business Goal, I tried to answer 5 business questions:
 
 ![alt text](https://github.com/Daniel-RPS/Car-Price-Prediction/blob/main/2.jpg)    
   
-3 - What type of fuel is most used? Gasoline is the most used fuel, with 90.2%, while diesel is used in 9.8% of cases.
+3 - What type of fuel is most used? Gasoline is the most used fuel, with 90.0%, while diesel is used in 10.0% of cases.
 
 ![alt text](https://github.com/Daniel-RPS/Car-Price-Prediction/blob/main/3.jpg)  
 
